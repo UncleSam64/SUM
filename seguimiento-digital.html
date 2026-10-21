@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seguimiento digital · Servicios Universales de Montacargas</title>
+  <meta name="description" content="Bitácora digital de cada cambio de refacción: pieza, unidad, fecha y fotografía, con búsqueda y exportación a Excel.">
+  <meta name="theme-color" content="#2B1A0E">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="inicio">
+    <div class="wrap nav__in">
+      <a class="nav__logo" href="index.html" aria-label="Servicios Universales de Montacargas, inicio">
+        <img src="assets/favicon.png" alt="" width="52" height="52">
+        <span>Servicios Universales<br>de Montacargas</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu">
+        <span class="sr">Abrir menú</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="menu" class="nav__menu" aria-label="Principal">
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#equipos">Equipos</a>
+        <a href="index.html#renta">Renta</a>
+        <a href="seguimiento-digital.html" aria-current="page">Seguimiento</a>
+        <a href="index.html#casos">Casos</a>
+        <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+        <a class="btn btn--accent" href="index.html#contacto">Cotizar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="sec sec--accent page-hero" aria-labelledby="seg-t">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow eyebrow--light">Seguimiento digital</p>
+          <h1 id="seg-t">Cada cambio de refacción, registrado</h1>
+          <p class="sec__intro">Usamos una aplicación propia para llevar la bitácora de sus montacargas, para que usted sepa qué se le hizo a cada unidad, cuándo y con qué pieza.</p>
+          <p class="hero__cta"><a class="btn btn--brand btn--lg" href="index.html#contacto">Solicitar cotización</a></p>
+        </div>
+        <div class="phone" aria-hidden="true">
+          <div class="phone__screen">
+            <div class="phone__head"><small>Servicios Universales</small><b>Bitácora</b></div>
+            <div class="phone__row"><i></i><div><b>Reconstrucción de motor eléctrico de levante</b><small>Unidad MC-07</small></div></div>
+            <div class="phone__row"><i></i><div><b>Sistema de frenos</b><small>Unidad MC-03</small></div></div>
+            <div class="phone__row"><i></i><div><b>Reparación de sistema hidráulico</b><small>Unidad MC-05</small></div></div>
+            <div class="phone__nav"><span class="on">Inicio</span><span>Nuevo</span><span>Bitácora</span><span>Galería</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="datos-t">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Los datos</p>
+        <h2 id="datos-t">Qué registramos en cada servicio</h2>
+        <p class="sec__intro">Cada intervención queda guardada con la misma información, para que el historial sea claro y comparable.</p>
+        <div class="cards cards--4">
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v10l8 4 8-4V7z M4 7l8 4 8-4 M12 11v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Pieza y número de parte</h3><p>Qué refacción se instaló, con su número de parte registrado.</p></article>
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="14" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M17 12h2l2 2v4h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="8" cy="19" r="1.6" fill="currentColor"/><circle cx="18" cy="19" r="1.6" fill="currentColor"/></svg></span><h3>Unidad</h3><p>En qué montacargas se hizo el cambio, identificado por marca y modelo.</p></article>
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M4 10h16M9 3v4M15 3v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Fecha</h3><p>Cuándo se hizo cada servicio, para ver el historial en orden.</p></article>
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M8 6l1.5-2h5L16 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Fotografía</h3><p>Una foto de la pieza reemplazada como comprobante del trabajo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec sec--tint" aria-labelledby="uso-t">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Lo que puede hacer con ellos</p>
+        <h2 id="uso-t">Información lista para consultar</h2>
+        <div class="cards cards--3">
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z M14 3v5h5 M9 13h6 M9 17h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Historial completo por unidad</h3><p>Todas las intervenciones de un montacargas en un solo lugar.</p></article>
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Búsqueda y filtros</h3><p>Encuentre registros por marca, modelo y fecha.</p></article>
+          <article class="card"><span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span><h3>Exportación a Excel</h3><p>Lleve la información a su control interno cuando la necesite.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="como-t">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Cómo funciona</p>
+        <h2 id="como-t">Tres pasos</h2>
+        <ol class="steps">
+          <li><span class="steps__n">1</span><h3>Hacemos el servicio</h3><p>Revisamos o reparamos la unidad y cambiamos la refacción que haga falta.</p></li>
+          <li><span class="steps__n">2</span><h3>Lo registramos</h3><p>Capturamos pieza, unidad y fecha, y tomamos la foto en el momento.</p></li>
+          <li><span class="steps__n">3</span><h3>Usted lo consulta</h3><p>El historial queda ordenado por unidad y se puede exportar a Excel.</p></li>
+        </ol>
+        <div class="visit-cta">
+          <p><b>¿Quiere que llevemos la bitácora de sus montacargas?</b> Cuéntenos cuántas unidades tiene.</p>
+          <a class="btn btn--accent btn--lg" href="index.html#contacto">Solicitar cotización</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <a class="foot__brand" href="index.html" aria-label="Volver al inicio">
+        <img src="assets/favicon.png" alt="" width="56" height="56">
+        <p><b>Servicios Universales de Montacargas</b><br>Servicio, refacciones y seguimiento para su flota.</p>
+      </a>
+      <nav aria-label="Pie de página">
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="index.html#equipos">Equipos</a>
+        <a href="index.html#renta">Renta</a>
+        <a href="seguimiento-digital.html">Seguimiento digital</a>
+        <a href="index.html#casos" data-sample>Casos de éxito</a>
+        <a href="index.html#noticias" data-sample>Noticias</a>
+        <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+    <ul class="wrap foot__contact">
+      <li><a data-tel href="index.html#contacto">614 665 8199</a></li>
+      <li><a data-email href="index.html#contacto">contacto@sum.com.mx</a></li>
+    </ul>
+    <p class="wrap foot__copy">© <span id="year"></span> Servicios Universales de Montacargas. Todos los derechos reservados. · <a href="aviso-de-privacidad.html">Aviso de privacidad</a> · <a href="terminos.html">Términos y condiciones</a></p>
+  </footer>
+
+  <a data-wa class="wa" href="index.html#contacto" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

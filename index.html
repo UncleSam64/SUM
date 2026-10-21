@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios Universales de Montacargas</title>
+  <meta name="description" content="Mantenimiento, reparación, refacciones, renta y venta de montacargas con bitácora digital de cada servicio. Cotice con Servicios Universales de Montacargas.">
+  <meta name="theme-color" content="#2B1A0E">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="topbar" role="region" aria-label="Visita sin costo">
+    <div class="wrap topbar__in">
+      <p><b>Agende una visita a su negocio.</b> Revisamos sus montacargas en sitio y le entregamos una propuesta de mantenimiento.</p>
+      <a class="btn btn--brand btn--sm" href="#contacto" data-modo="visita">Agendar visita</a>
+    </div>
+  </div>
+
+  <header class="nav" id="inicio">
+    <div class="wrap nav__in">
+      <a class="nav__logo" href="#inicio" data-top aria-label="Servicios Universales de Montacargas, inicio">
+        <img src="assets/favicon.png" alt="" width="52" height="52">
+        <span>Servicios Universales<br>de Montacargas</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu">
+        <span class="sr">Abrir menú</span>
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      </button>
+      <nav id="menu" class="nav__menu" aria-label="Principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipos">Equipos</a>
+        <a href="#renta">Renta</a>
+        <a href="seguimiento-digital.html">Seguimiento</a>
+        <a href="#casos">Casos</a>
+        <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+        <a class="btn btn--accent" href="#contacto">Cotizar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- 1. Gancho: la promesa + empresas que ya confían -->
+    <section class="hero" aria-labelledby="hero-t">
+      <div class="wrap hero__in">
+        <div class="hero__text">
+          <p class="eyebrow">Servicios Universales de Montacargas · Desde 1992</p>
+          <h1 id="hero-t">Cuando el montacargas se detiene, su operación también.</h1>
+          <p class="lead">Nosotros hacemos que siga trabajando: mantenimiento, reparación y refacciones, con cada servicio registrado y con fotos.</p>
+          <div class="hero__cta">
+            <a class="btn btn--accent btn--lg" href="#contacto">Solicitar cotización</a>
+            <a data-tel class="btn btn--ghost btn--lg" href="#contacto">Llamar ahora</a>
+          </div>
+        </div>
+
+        <div class="car" role="region" aria-label="Empresas que confían en nosotros">
+          <p class="car__title">Empresas que ya trabajan con nosotros</p>
+          <div class="car__frame">
+            <ul class="car__track" aria-label="Logotipos de clientes">
+            <li class="car__item"><img src="assets/clients/queseria-dos-lagunas.png" alt="Quesería Dos Lagunas" height="88"></li>
+            <li class="car__item"><img src="assets/clients/loguera-block.png" alt="Loguera Block" height="88"></li>
+            <li class="car__item"><img src="assets/clients/llantas-gigantes.png" alt="Llantas Gigantes" height="88"></li>
+            <li class="car__item"><img src="assets/clients/klassen.png" alt="Klassen" height="88"></li>
+            <li class="car__item"><img src="assets/clients/renu.png" alt="Renú Pisos y Acabados" height="88"></li>
+            <li class="car__item"><img src="assets/clients/materiales-5-de-mayo.png" alt="Materiales 5 de Mayo" height="88"></li>
+            <li class="car__item"><img src="assets/clients/sonoco.png" alt="Sonoco" height="88"></li>
+            <li class="car__item"><img src="assets/clients/artec.png" alt="Artec" height="88"></li>
+            <li class="car__item"><img src="assets/clients/acabados-metalicos.png" alt="Acabados Metálicos" height="88"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. La necesidad -->
+    <section class="sec" id="necesidad">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">El reto</p>
+        <h2>Un montacargas parado cuesta más que su reparación</h2>
+        <p class="sec__intro">Si su operación mueve carga todos los días, el montacargas es parte de la línea de producción. Estos son los problemas que vemos una y otra vez:</p>
+        <div class="cards cards--3">
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+            <h3>Paros que nadie esperaba</h3>
+            <p>Una falla que pudo detectarse a tiempo detiene el almacén, los embarques y a su personal.</p>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z M14 3v5h5 M9 13h6 M9 17h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <h3>No saber qué se le hizo a cada unidad</h3>
+            <p>Sin historial, es difícil saber qué pieza se cambió, cuándo y quién la instaló.</p>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v10l8 4 8-4V7z M4 7l8 4 8-4 M12 11v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <h3>Proveedores que desaparecen</h3>
+            <p>Cotizaciones que cambian, refacciones que no llegan y nadie que conteste el teléfono.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Quiénes somos -->
+    <section class="sec sec--tint" id="nosotros">
+      <div class="wrap about">
+        <div>
+          <p class="eyebrow eyebrow--deep">Quiénes somos · Desde 1992</p>
+          <h2>Somos Servicios Universales de Montacargas</h2>
+          <p class="sec__intro">Nos dedicamos a mantener trabajando los montacargas de empresas como la suya: damos mantenimiento preventivo y correctivo, reparamos, instalamos refacciones y ofrecemos renta, venta y capacitación de operadores.</p>
+          <p class="sec__intro">Lo que nos distingue es que usted habla directamente con quien atiende su equipo, y que cada cambio de refacción queda registrado con fotografía en nuestra bitácora digital.</p>
+        </div>
+        <ul class="facts" aria-label="Datos de la empresa">
+          <li class="facts__years" data-years-box hidden><b data-years>0</b><span>años en operación</span></li>
+          <li><b>5</b><span>áreas de servicio: mantenimiento, reparación, refacciones, renta y venta, capacitación</span></li>
+          <li><b>7</b><span>marcas de montacargas que manejamos</span></li>
+        </ul>
+      </div>
+
+      <div class="wrap" data-sample>
+        <div class="mvv">
+          <article><h3>Misión</h3><p>Mantener operando los montacargas de nuestros clientes con servicio oportuno, refacciones confiables y un registro claro de cada intervención.</p></article>
+          <article><h3>Visión</h3><p>Ser el aliado de mantenimiento al que las empresas de la región recurren primero, por su cumplimiento y transparencia.</p></article>
+          <article><h3>Valores</h3><ul><li>Cumplimiento</li><li>Transparencia</li><li>Seguridad</li><li>Trato directo</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Por qué confiar -->
+    <section class="band" id="confianza" aria-labelledby="confianza-t">
+      <div class="wrap band__head">
+        <p class="eyebrow eyebrow--light">Por qué confiar en nosotros</p>
+        <h2 id="confianza-t">Trabajo que puede comprobar</h2>
+      </div>
+      <ul class="wrap band__in">
+        <li><strong>Bitácora con fotos</strong><span>Cada pieza cambiada queda registrada por unidad</span></li>
+        <li><strong>Cotización antes del trabajo</strong><span>Usted conoce el costo antes de que empecemos</span></li>
+        <li><strong>Atención directa</strong><span>Llamada o WhatsApp, sin intermediarios</span></li>
+        <li><strong>Clientes de distintos giros</strong><span>Trabajamos con empresas de diferentes sectores</span></li>
+      </ul>
+    </section>
+
+    <!-- 5. Cómo le ayudamos: servicios -->
+    <section class="sec" id="servicios">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Cómo le ayudamos</p>
+        <h2>Todo lo que su montacargas necesita</h2>
+        <p class="sec__intro">Elija el servicio y cotice en un minuto.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5 5L3 18l3 3 6.7-6.7a4 4 0 0 0 5-5l-2.4 2.4-2.6-.6-.6-2.6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <h3>Mantenimiento preventivo</h3>
+            <p>Revisiones programadas para detectar desgaste antes de que se convierta en paro.</p>
+            <a class="card__link" href="#contacto" data-modo="servicio" data-servicio="Mantenimiento preventivo">Cotizar este servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            <h3>Reparación</h3>
+            <p>Diagnóstico y reparación de sistema hidráulico, motor, transmisión y frenos.</p>
+            <a class="card__link" href="#contacto" data-modo="servicio" data-servicio="Reparación">Cotizar este servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v10l8 4 8-4V7z M4 7l8 4 8-4 M12 11v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <h3>Refacciones</h3>
+            <p>Suministro e instalación de las piezas que su unidad requiere, con número de parte registrado.</p>
+            <a class="card__link" href="#contacto" data-modo="servicio" data-servicio="Refacciones">Cotizar este servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="14" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M17 12h2l2 2v4h-4M7 18v0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="8" cy="19" r="1.6" fill="currentColor"/><circle cx="18" cy="19" r="1.6" fill="currentColor"/></svg></span>
+            <h3>Renta y venta</h3>
+            <p>Consulte disponibilidad de equipo para rentar o comprar.</p>
+            <a class="card__link" href="#contacto" data-modo="equipo">Cotizar este servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card">
+            <span class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z M6 11.5V16c0 1.2 2.7 3 6 3s6-1.8 6-3v-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <h3>Capacitación</h3>
+            <p>Operación segura para su personal.</p>
+            <a class="card__link" href="#contacto" data-modo="servicio" data-servicio="Capacitación">Cotizar este servicio <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="card card--cta">
+            <h3>¿No ve lo que busca?</h3>
+            <p>Cuéntenos qué necesita y le respondemos.</p>
+            <a class="btn btn--ink" href="#contacto">Contáctenos</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="sec sec--tint" id="proceso">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Cómo trabajamos</p>
+        <h2>Tres pasos</h2>
+        <ol class="steps">
+          <li><span class="steps__n">1</span><h3>Diagnóstico</h3><p>Revisamos la unidad y le decimos qué encontramos.</p></li>
+          <li><span class="steps__n">2</span><h3>Cotización</h3><p>Usted recibe el costo antes de que empiece el trabajo.</p></li>
+          <li><span class="steps__n">3</span><h3>Servicio y seguimiento</h3><p>Hacemos el trabajo y queda registrado con fotos en su bitácora.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Equipos -->
+    <section class="sec" id="equipos">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Equipos</p>
+        <h2>Marcas disponibles</h2>
+        <div class="prods">
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/toyota.jpg" alt="Montacargas Toyota" width="960" height="720" loading="lazy" data-ph="Toyota"></div>
+            <div class="prod__body">
+              <h3>Toyota</h3>
+              <p>Montacargas tradicional, combustión y eléctrico.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Toyota">Cotizar Toyota</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/clark.jpg" alt="Montacargas Clark" width="960" height="720" loading="lazy" data-ph="Clark"></div>
+            <div class="prod__body">
+              <h3>Clark</h3>
+              <p>Montacargas tradicional, combustión y eléctrico.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Clark">Cotizar Clark</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/mitsubishi.jpg" alt="Montacargas Mitsubishi" width="960" height="720" loading="lazy" data-ph="Mitsubishi"></div>
+            <div class="prod__body">
+              <h3>Mitsubishi</h3>
+              <p>Montacargas tradicional, combustión y eléctrico.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Mitsubishi">Cotizar Mitsubishi</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/caterpillar.jpg" alt="Montacargas Caterpillar" width="960" height="720" loading="lazy" data-ph="Caterpillar"></div>
+            <div class="prod__body">
+              <h3>Caterpillar</h3>
+              <p>Montacargas tradicional, combustión y eléctrico.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Caterpillar">Cotizar Caterpillar</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/unicarriers.jpg" alt="Montacargas Unicarriers" width="960" height="720" loading="lazy" data-ph="Unicarriers"></div>
+            <div class="prod__body">
+              <h3>Unicarriers</h3>
+              <p>Montacargas tradicional, combustión y eléctrico.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Unicarriers">Cotizar Unicarriers</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/yale.jpg" alt="Montacargas Yale" width="960" height="720" loading="lazy" data-ph="Yale"></div>
+            <div class="prod__body">
+              <h3>Yale</h3>
+              <p>Equipos eléctricos con adaptadores especiales.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Yale">Cotizar Yale</a>
+            </div>
+          </article>
+          <article class="prod">
+            <div class="prod__media"><img src="assets/products/hyster.jpg" alt="Montacargas Hyster" width="960" height="720" loading="lazy" data-ph="Hyster"></div>
+            <div class="prod__body">
+              <h3>Hyster</h3>
+              <p>Equipos eléctricos con adaptadores especiales.</p>
+              <a class="btn btn--accent btn--sm" href="#contacto" data-modo="equipo" data-equipo="Hyster">Cotizar Hyster</a>
+            </div>
+          </article>
+          <article class="prod prod--cta card--cta">
+            <div class="prod__body">
+              <h3>¿Otra marca?</h3>
+              <p>Díganos qué equipo busca y se lo cotizamos.</p>
+              <a class="btn btn--ink btn--sm" href="#contacto" data-modo="equipo" data-equipo="Otra marca">Consultar</a>
+            </div>
+          </article>
+        </div>
+        <aside class="fit" aria-label="Adaptación a su operación">
+          <span class="fit__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+          <p class="fit__text">Cada montacargas se adapta a <em>su operación</em> y a las reglas de <em>su empresa</em>.</p>
+          <a class="btn btn--brand" href="#contacto" data-modo="equipo">Cuéntenos su operación</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Renta (sección propia, sin precio) -->
+    <section class="sec sec--ink" id="renta" aria-labelledby="renta-t">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow eyebrow--light">Renta</p>
+          <h2 id="renta-t">Rente el montacargas que necesita, por el tiempo que lo necesita</h2>
+          <p class="sec__intro">El costo depende del modelo, la capacidad de carga y el plazo del contrato. Díganos qué va a mover y por cuánto tiempo, y le enviamos una propuesta.</p>
+          <div class="hero__cta">
+            <a class="btn btn--brand btn--lg" href="#contacto" data-modo="equipo" data-operacion="Renta">Cotizar renta</a>
+          </div>
+        </div>
+        <ol class="ticks ticks--num">
+          <li>Nos dice capacidad, tipo de energía y plazo</li>
+          <li>Le enviamos la cotización por escrito</li>
+          <li>Usted decide; nosotros entregamos el equipo</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Seguimiento digital: anuncio que lleva a su propia página -->
+    <section class="sec sec--promo" aria-label="Seguimiento digital">
+      <div class="wrap">
+        <a class="promo" href="seguimiento-digital.html">
+          <div class="promo__text">
+            <p class="eyebrow eyebrow--light">Seguimiento digital</p>
+            <h2>Cada cambio de refacción, registrado</h2>
+            <p>Bitácora con foto por unidad: qué pieza se cambió, cuándo y en qué montacargas.</p>
+            <span class="btn btn--brand">Conocer más <span aria-hidden="true">→</span></span>
+          </div>
+          <div class="phone phone--sm" aria-hidden="true">
+            <div class="phone__screen">
+              <div class="phone__head"><small>Servicios Universales</small><b>Bitácora</b></div>
+              <div class="phone__row"><i></i><div><b>Reconstrucción de motor eléctrico de levante</b><small>Unidad MC-07</small></div></div>
+              <div class="phone__row"><i></i><div><b>Sistema de frenos</b><small>Unidad MC-03</small></div></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Casos de éxito (ejemplo) -->
+    <section class="sec" id="casos" aria-labelledby="casos-t" data-sample>
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Casos de éxito</p>
+        <h2 id="casos-t">Resultados que se pueden medir</h2>
+        <div class="grid3">
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><h3>Programa de mantenimiento preventivo para una flota de montacargas</h3><p>Pasamos de reparar fallas a prevenirlas, con calendario por unidad y bitácora fotográfica.</p><p class="result"><b>Resultado:</b> menos paros no planeados.</p></div></article>
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><h3>Renta de equipo para temporada alta</h3><p>Entrega de montacargas en renta con plazo definido para cubrir un aumento de demanda.</p><p class="result"><b>Resultado:</b> operación sin interrupciones.</p></div></article>
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><h3>Orden y control de refacciones por unidad</h3><p>Registro de cada pieza instalada, con número de parte y fotografía.</p><p class="result"><b>Resultado:</b> historial completo por montacargas.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Noticias / blog (ejemplo) -->
+    <section class="sec sec--tint" id="noticias" aria-labelledby="noticias-t" data-sample>
+      <div class="wrap">
+        <p class="eyebrow eyebrow--deep">Noticias y consejos</p>
+        <h2 id="noticias-t">Para cuidar mejor su montacargas</h2>
+        <div class="grid3">
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><time datetime="2026-10-01">1 oct 2026</time><h3>Señales de que su montacargas necesita mantenimiento</h3><p>Ruidos, fugas y pérdida de fuerza: qué revisar antes de que haya un paro.</p></div></article>
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><time datetime="2026-09-15">15 sep 2026</time><h3>Por qué registrar cada refacción</h3><p>Un historial por unidad ayuda a planear compras y detectar piezas que fallan seguido.</p></div></article>
+          <article class="post"><div class="post__img" aria-hidden="true"></div><div class="post__body"><time datetime="2026-09-01">1 sep 2026</time><h3>Revisión diaria antes de operar</h3><p>Una lista corta que el operador puede hacer en minutos para trabajar con seguridad.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section class="sec sec--tint" id="contacto">
+      <div class="wrap contact">
+        <div>
+          <p class="eyebrow eyebrow--deep">Contacto</p>
+          <h2>Solicite su cotización</h2>
+          <p class="sec__intro">Llene el formulario y se abrirá WhatsApp con su mensaje listo para enviar. También puede llamarnos o escribirnos directamente.</p>
+          <ul class="info">
+            <li><span>Teléfono</span><a data-tel href="#contacto">614 665 8199</a></li>
+            <li><span>WhatsApp</span><a data-wa href="#contacto" target="_blank" rel="noopener">Enviar mensaje</a></li>
+            <li><span>Correo</span><a data-email href="#contacto">contacto@sum.com.mx</a></li>
+            <li><span>Dirección</span><b data-address>Por confirmar</b></li>
+            <li><span>Horario</span><b data-hours>Por confirmar</b></li>
+          </ul>
+        </div>
+
+        <form class="form" id="form" novalidate>
+          <fieldset class="modes">
+            <legend>¿Qué necesita?</legend>
+            <label class="mode"><input type="radio" name="modo" value="servicio" checked><span><b>Servicio</b><small>Mantenimiento, reparación, refacciones</small></span></label>
+            <label class="mode"><input type="radio" name="modo" value="equipo"><span><b>Renta o compra</b><small>Cotizar un montacargas</small></span></label>
+            <label class="mode"><input type="radio" name="modo" value="visita"><span><b>Visita a mi negocio</b><small>Revisión en sitio</small></span></label>
+          </fieldset>
+
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" autocomplete="name" required>
+            <p class="err" hidden>Escriba su nombre.</p>
+          </div>
+          <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" name="telefono" type="tel" inputmode="tel" autocomplete="tel" required>
+            <p class="err" hidden>Escriba un teléfono de contacto.</p>
+          </div>
+          <div class="field">
+            <label for="empresa">Empresa <span class="opt">(opcional)</span></label>
+            <input id="empresa" name="empresa" autocomplete="organization">
+          </div>
+
+          <!-- Solo para "Servicio" -->
+          <div class="field" data-mode="servicio">
+            <label for="servicio">Servicio</label>
+            <select id="servicio" name="servicio">
+              <option>Mantenimiento preventivo</option>
+              <option>Reparación</option>
+              <option>Refacciones</option>
+              <option>Capacitación</option>
+              <option>Otro</option>
+            </select>
+          </div>
+
+          <!-- Solo para "Renta o compra" -->
+          <div class="field" data-mode="equipo" hidden>
+            <label for="operacion">Me interesa</label>
+            <select id="operacion" name="operacion">
+              <option>Renta</option>
+              <option>Compra</option>
+            </select>
+          </div>
+          <div class="field" data-mode="equipo" hidden>
+            <label for="equipo">Marca <span class="opt">(opcional)</span></label>
+            <select id="equipo" name="equipo">
+              <option value="">No estoy seguro</option>
+              <option>Toyota</option>
+              <option>Clark</option>
+              <option>Mitsubishi</option>
+              <option>Caterpillar</option>
+              <option>Unicarriers</option>
+              <option>Yale</option>
+              <option>Hyster</option>
+              <option>Otra marca</option>
+            </select>
+          </div>
+
+          <!-- Solo para "Visita" -->
+          <div class="field" data-mode="visita" hidden>
+            <label for="ubicacion">Ciudad o zona de su negocio</label>
+            <input id="ubicacion" name="ubicacion" autocomplete="address-level2" required>
+            <p class="err" hidden>Escriba dónde se encuentra su negocio.</p>
+          </div>
+
+          <div class="field">
+            <label for="mensaje"><span data-msg-label>Mensaje</span> <span class="opt" data-msg-opt hidden>(opcional)</span></label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            <p class="err" hidden>Cuéntenos brevemente qué necesita.</p>
+          </div>
+          <button class="btn btn--accent btn--lg btn--block" type="submit">Enviar por WhatsApp</button>
+          <p class="form__privacy">Usaremos sus datos solo para responder su solicitud. No los usamos para publicidad ni los vendemos. Conozca nuestro <a href="aviso-de-privacidad.html">Aviso de privacidad</a>.</p>
+          <p class="form__alt">¿Prefiere correo? <a data-mail-form href="#contacto">Enviar por correo</a></p>
+        </form>
+      </div>
+      <div class="wrap"><div class="map" data-map hidden></div></div>
+    </section>
+  
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <a class="foot__brand" href="#inicio" data-top aria-label="Volver arriba">
+        <img src="assets/favicon.png" alt="" width="56" height="56">
+        <p><b>Servicios Universales de Montacargas</b><br>Servicio, refacciones y seguimiento para su flota.</p>
+      </a>
+      <nav aria-label="Pie de página">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipos">Equipos</a>
+        <a href="#renta">Renta</a>
+        <a href="seguimiento-digital.html">Seguimiento digital</a>
+        <a href="#casos" data-sample>Casos de éxito</a>
+        <a href="#noticias" data-sample>Noticias</a>
+        <a href="trabaja-con-nosotros.html">Trabaja con nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <ul class="wrap foot__contact">
+      <li><a data-tel href="#contacto">614 665 8199</a></li>
+      <li><a data-email href="#contacto">contacto@sum.com.mx</a></li>
+    </ul>
+    <p class="wrap foot__copy">© <span id="year"></span> Servicios Universales de Montacargas. Todos los derechos reservados. · <a href="aviso-de-privacidad.html">Aviso de privacidad</a> · <a href="terminos.html">Términos y condiciones</a></p>
+  </footer>
+
+  <a data-wa class="wa" href="#contacto" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
