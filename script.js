@@ -7,6 +7,7 @@ const CONFIG = {
   phoneDisplay: '614 665 8199',
   whatsapp: '526146658199',
   email: 'contacto@sum.com.mx',
+  emailAlt: 'serv_universales@hotmail.com', // correo alterno (opcional)
   address: 'Manuel García García 10505, Deportistas, 31125 Chihuahua, Chih.',
   hours: 'Lunes a viernes: 8:00 a.m. a 6:00 p.m.\nSábado: 8:00 a.m. a 2:00 p.m.',
   // Years in operation. Set the founding year (e.g. 2012) to show "N años en operación"; leave null to hide.
@@ -34,6 +35,11 @@ const CONFIG = {
   $$('[data-email]').forEach((a) => {
     a.href = `mailto:${CONFIG.email}`;
     a.textContent = CONFIG.email;
+  });
+  $$('[data-email-alt]').forEach((a) => {
+    if (!CONFIG.emailAlt) { (a.closest('li') || a).hidden = true; return; }
+    a.href = `mailto:${CONFIG.emailAlt}`;
+    a.textContent = CONFIG.emailAlt;
   });
   const optional = (sel, value) =>
     $$(sel).forEach((el) => {
