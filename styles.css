@@ -81,9 +81,6 @@ p { margin: 0; }
 .nav__toggle { display: none; width: 46px; height: 46px; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); cursor: pointer; }
 
 /* Eyebrow */
-.eyebrow { font: 600 .78rem/1 Inter, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--brand-deep); margin-bottom: 18px; }
-.eyebrow--deep { color: var(--brand-deep); }
-.eyebrow--light { color: var(--brand-light); }
 
 /* Hero */
 .hero { background: var(--bg); padding: 96px 0 72px; }
@@ -210,7 +207,7 @@ p { margin: 0; }
 .promo { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; background: var(--accent-deep); color: #fff; text-decoration: none; padding: 56px 64px; border-radius: 32px; overflow: hidden; transition: background .2s; }
 .promo:hover { background: #18404D; }
 .promo h2 { color: #fff; }
-.promo p:not(.eyebrow) { margin: 16px 0 28px; max-width: 34em; color: #D5E4EA; }
+.promo p { margin: 16px 0 28px; max-width: 34em; color: #D5E4EA; }
 .visit-cta { margin-top: 56px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; background: var(--soft); border-radius: var(--radius); padding: 28px 32px; }
 
 /* Posts, jobs, map */
