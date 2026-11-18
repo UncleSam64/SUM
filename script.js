@@ -14,7 +14,7 @@ const CONFIG = {
   // Sections marked data-sample hold EXAMPLE content (mission/vision/values, team, cases, blog, jobs).
   // Keep true while reviewing the design; set false to hide them all until you replace them with real content
   // (then remove the data-sample attribute from each block you fill in).
-  showSamples: true,
+  showSamples: false,
   // Map: type the address as you would in Google Maps (e.g. 'Calle X 123, Chihuahua'). Empty hides the map.
   mapQuery: 'Manuel García García 10505, Deportistas, 31125 Chihuahua, Chihuahua, México',
 };
